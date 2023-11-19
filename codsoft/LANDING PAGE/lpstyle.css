@@ -1,0 +1,138 @@
+h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  
+}
+svg{
+  animation: rot 4s infinite ;
+  
+  transition: 0.5s;
+  transition-timing-function: linear;
+}
+@keyframes rot{
+  0% {
+    transform: translateX(1px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(50px) rotateY(360deg);
+  }
+  
+  100% {
+    transform: translateX(1px) rotateY(0deg);
+  }
+}
+.bgimg{
+background-image: url(bgimg.jpg);
+height: 100vh;
+position: relative;
+
+}
+
+.fs-4{
+  color: aliceblue;
+  font-weight: 700;
+}
+.nav-link{
+  color: aliceblue;
+}
+.nav-link:hover{
+  font-weight: bolder;
+  scale: 1.2;
+  transition: 0.5s ;
+  color: rgb(240, 217, 188);
+  
+}
+.container-half{
+  display: flex;
+  height: 40vh;
+  width: 90vw;
+  
+  position: relative;
+  top: -20vh;
+  left: 5vw;
+  right: 5vw;
+  box-shadow: 10px 10px 8px rgb(68, 65, 65);
+  overflow: hidden;
+
+
+}
+
+.all>span{
+  padding-left: 5px;
+  padding-right: 5px;
+  height: fit-content;
+  font-size: 20px;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  position: relative;
+  top: 250px;
+  left: 45px;
+  
+  
+ 
+  
+}
+.all:hover  {
+  scale: 1.1;
+  transition: 1s;
+ 
+ 
+
+
+}
+
+.img1{
+  background-image: url(img1.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 25%;
+  
+  
+}
+.img2{
+  background-image: url(download.jpeg);
+  height: 100%;
+  background-size: cover;
+  height: 100%;
+  width: 25%;
+  
+}
+.img3{
+  background-image: url(2742175.jpg);
+  height: 100%;
+  background-size: cover;
+  height: 100%;
+  width: 25%;
+ 
+}
+.img4{
+  background-image: url(image.jpg);
+  height: 100%;
+  background-size: cover;
+  height: 100%;
+  width: 25%;
+  
+}
+
+
+
+
+
+
+.containerlast{
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  padding: 5px;
+  
+}
+hr.style2 {
+border-top: 3px double rgb(250, 213, 165);
+  opacity: 1;
+}
